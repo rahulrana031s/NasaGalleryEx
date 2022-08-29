@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/margin_5"
+    android:id="@+id/mainHolder"
+    app:cardBackgroundColor="@android:color/white"
+    android:layout_margin="@dimen/margin_10"
+    app:cardElevation="@dimen/margin_8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_200"
+            android:id="@+id/ivPlaceHolder"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/size_18"
+            android:text="Title"
+            android:layout_marginLeft="@dimen/margin_14"
+            android:layout_marginRight="@dimen/margin_10"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDate"
+            android:text="Desc"
+            android:textSize="@dimen/size_15"
+            android:layout_marginLeft="@dimen/margin_14"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginBottom="@dimen/margin_10"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
