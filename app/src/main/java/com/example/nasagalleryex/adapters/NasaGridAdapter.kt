@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.example.ImageDetailsActivity
+import com.example.nasagalleryex.ImageDetailsActivity
 import com.example.nasagalleryex.R
 import com.example.nasagalleryex.interfaces.ItemTouchHelperAdapter
 import com.example.nasagalleryex.interfaces.OnItemDragListner

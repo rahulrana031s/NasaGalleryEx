@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
         <activity
-            android:name="com.example.ImageDetailsActivity"
+            android:name=".ImageDetailsActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity"/>
         <activity

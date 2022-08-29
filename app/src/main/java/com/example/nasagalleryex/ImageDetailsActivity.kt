@@ -1,10 +1,9 @@
-package com.example
+package com.example.nasagalleryex
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import coil.load
-import com.example.nasagalleryex.R
 import com.example.nasagalleryex.databinding.ActivityImageDetailsBinding
 
 class ImageDetailsActivity : AppCompatActivity() {
